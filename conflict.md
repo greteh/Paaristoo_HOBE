@@ -1,1 +1,1 @@
-Tere tulemast! Täna on kena ilm. Väljas pole päikest.
+Tere tulemast! Andke andeks, aga see ilm k�ll kena pole :). Väljas pole päikest.
