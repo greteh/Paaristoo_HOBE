@@ -1,0 +1,1 @@
+Tere tulemast! Täna on kena ilm. Väljas pole päikest.
