@@ -1,1 +1,4 @@
-Tere tulemast! T√§na on kena ilm. Sein on ees, ei n√§e v√§lja.
+<<<<<<< HEAD
+Tere tulemast. T‰na pole kena ilm. P‰ikest ei ole.
+=======
+
