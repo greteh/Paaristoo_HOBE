@@ -1,1 +1,1 @@
-Tere tulemast! Täna on kena ilm. Väljas pole päikest.
+Tere tulemast! Täna on kena ilm. Väljas sajab hoopis vihma.
