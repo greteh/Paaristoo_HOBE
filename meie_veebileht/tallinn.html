@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="veebileheJS.js"></script>
     <link rel="stylesheet" href="lisalehtedecss.css">
     <meta charset="UTF-8">
     <title>TudengiAbi.ee/Tallinn</title>
@@ -9,7 +10,10 @@
 <body>
 <img src="logo.png" style="width: 473px;height: 137px">
 <h1>Tallinna tudengiabi <span><b><a href="meie_veebileht.html"><span>Avaleht</span></a><a href="tartu.html"><span>Tartu</span></a><a href="tallinn.html"><span><g>Tallinn</g></span></a><a href="parnu.html"><span>Pärnu</span></a></b></span></h1>
-<h2>Toit</h2>
+<h2 id="kõrval" onclick=naita("kõrval","all","toit")>Toit ▸</h2>
+<h2 style="display: none" id="all" onclick=peida("all","kõrval","toit")>Toit ▾</h2>
+
+<div id="toit">
 <hr>
 
 <h3>Päevapakkumised.ee</h3>
@@ -30,28 +34,34 @@
 <h3>McDonald's</h3>
 <a href="https://mcdonalds.ee/app/"><img src="mc2.png" style="width: 100px; height: auto; margin-right: 100px" align="right"></a>
 <p>Samuti saab ka McDonald'sis sooduspakkumisi, kui alla tõmmata äpp. <br> ➜ <a href="https://mcdonalds.ee/app/">Tõmba äpp</a></p>
+</div>
+
 <hr style="border-color: #ff7905; margin-top: 60px">
+<h2 id="kõrval2" onclick=naita("kõrval2","all2","trenn")>Trenn ▸</h2>
+<h2 style="display: none" id="all2" onclick=peida("all2","kõrval2","trenn")>Trenn ▾</h2>
 
-<h2>Trenn</h2>
-<hr>
+<div id="trenn">
+    <hr>
 
-<h3>24/7 Fitness</h3>
-<a href="https://www.24-7fitness.ee/"><img src="247fitness.png" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
-<p>24/7 Fitness pakub Tallinnas kindlasti ühte kõige magusamat paketti: Kuu madalamaks hinnaks on neil 19€. Kuid kui võtta aastane pakett ja käia välja kohe 199.99€, tuleks kuumaksumuseks kõigest 15€! Uuri lähemalt nende kodulehelt! <br> ➜ <a href="https://www.24-7fitness.ee/">Koduleht</a></p>
-<hr>
+    <h3>24/7 Fitness</h3>
+    <a href="https://www.24-7fitness.ee/"><img src="247fitness.png" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
+    <p>24/7 Fitness pakub Tallinnas kindlasti ühte kõige magusamat paketti: Kuu madalamaks hinnaks on neil 19€. Kuid kui võtta aastane pakett ja käia välja kohe 199.99€, tuleks kuumaksumuseks kõigest 15€! Uuri lähemalt nende kodulehelt! <br> ➜ <a href="https://www.24-7fitness.ee/">Koduleht</a></p>
+    <hr>
 
-<h3>People Fitness</h3>
-<a href="https://peoplefitness.eu/estonia/et/"><img src="peoplef.png" style="width: 100px; height: auto; margin-right: 100px" align="right"></a>
-<p>People Fitness club pakub omalt poolt kasutada jõusaali, kuid teatud pakettides lisanduvad ka huvitavad rühmatreeningud ning palju muudki! Täpsem info kodulehelt. <br> ➜ <a href="https://peoplefitness.eu/estonia/et/">Koduleht</a></p>
-<hr>
+    <h3>People Fitness</h3>
+    <a href="https://peoplefitness.eu/estonia/et/"><img src="peoplef.png" style="width: 100px; height: auto; margin-right: 100px" align="right"></a>
+    <p>People Fitness club pakub omalt poolt kasutada jõusaali, kuid teatud pakettides lisanduvad ka huvitavad rühmatreeningud ning palju muudki! Täpsem info kodulehelt. <br> ➜ <a href="https://peoplefitness.eu/estonia/et/">Koduleht</a></p>
+    <hr>
 
-<h3>Pae pargi terviserada</h3>
-<a href="https://terviserajad.ee/rajad/pae-pargi-terviserada/?fbclid=IwAR1GJBMqfkMwvBtc7uaeSOkWhwfc_CIBkUNWGLsu23VeKkXL2rH2pTvwC28"><img src="terviserajad.svg" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
-<p>Terviserajal on asfalteeritud 1,8 km liikumisring ja koorepurukattega 1,9 km pikkune jooksu-, jalutus-, kepikõnni ring. Rajad on avatud aastaringselt.<br> ➜ <a href="https://terviserajad.ee/rajad/pae-pargi-terviserada/?fbclid=IwAR1GJBMqfkMwvBtc7uaeSOkWhwfc_CIBkUNWGLsu23VeKkXL2rH2pTvwC28">Raja info</a></p>
-<hr>
+    <h3>Pae pargi terviserada</h3>
+    <a href="https://terviserajad.ee/rajad/pae-pargi-terviserada/?fbclid=IwAR1GJBMqfkMwvBtc7uaeSOkWhwfc_CIBkUNWGLsu23VeKkXL2rH2pTvwC28"><img src="terviserajad.svg" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
+    <p>Terviserajal on asfalteeritud 1,8 km liikumisring ja koorepurukattega 1,9 km pikkune jooksu-, jalutus-, kepikõnni ring. Rajad on avatud aastaringselt.<br> ➜ <a href="https://terviserajad.ee/rajad/pae-pargi-terviserada/?fbclid=IwAR1GJBMqfkMwvBtc7uaeSOkWhwfc_CIBkUNWGLsu23VeKkXL2rH2pTvwC28">Raja info</a></p>
+    <hr>
 
-<h3>Merimetsa terviserada</h3>
-<a href="https://terviserajad.ee/rajad/merimetsa-terviserajad/?fbclid=IwAR16ipDl3z_qJL1NlTC7V6t8oqijm320bxG8uFAzAOPDgYzrwP6pJpFCl8U"><img src="terviserajad.svg" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
-<p>Merimetsa terviserajal on 1,8 ja 1,2 km pikkused jooksu-, jalutus-, ratta- ja kepikõnniringid. <br> ➜ <a href="https://terviserajad.ee/rajad/merimetsa-terviserajad/?fbclid=IwAR16ipDl3z_qJL1NlTC7V6t8oqijm320bxG8uFAzAOPDgYzrwP6pJpFCl8U">Raja info</a></p>
+    <h3>Merimetsa terviserada</h3>
+    <a href="https://terviserajad.ee/rajad/merimetsa-terviserajad/?fbclid=IwAR16ipDl3z_qJL1NlTC7V6t8oqijm320bxG8uFAzAOPDgYzrwP6pJpFCl8U"><img src="terviserajad.svg" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
+    <p>Merimetsa terviserajal on 1,8 ja 1,2 km pikkused jooksu-, jalutus-, ratta- ja kepikõnniringid. <br> ➜ <a href="https://terviserajad.ee/rajad/merimetsa-terviserajad/?fbclid=IwAR16ipDl3z_qJL1NlTC7V6t8oqijm320bxG8uFAzAOPDgYzrwP6pJpFCl8U">Raja info</a></p>
+
+</div>
 </body>
 </html>
