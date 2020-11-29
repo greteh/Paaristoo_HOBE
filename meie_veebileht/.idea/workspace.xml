@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5604700-7954-4469-9ec0-d91858d130cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MarieIlutuba.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MarieIlutuba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meie_veebileht.html" beforeDir="false" afterPath="$PROJECT_DIR$/meie_veebileht.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parnu.html" beforeDir="false" afterPath="$PROJECT_DIR$/parnu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tartu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tartu.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kSn0PM5OhjeTQ4S3Ss7O64K9O1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sissejuhatus erialasse/index.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5604700-7954-4469-9ec0-d91858d130cf" name="Default Changelist" comment="" />
+      <created>1605702637099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605702637099</updated>
+      <workItem from="1605702638156" duration="5179000" />
+      <workItem from="1606307537361" duration="17837000" />
+      <workItem from="1606394971934" duration="10300000" />
+      <workItem from="1606597774688" duration="484000" />
+      <workItem from="1606640312545" duration="8637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606642427751">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606642427751" />
+    <state x="740" y="99" key="FileChooserDialogImpl" timestamp="1605703144723">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605703144723" />
+    <state x="466" y="77" key="Vcs.Push.Dialog.v2" timestamp="1605708575532">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="466" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605708575532" />
+    <state x="-5" y="0" width="631" height="666" key="dock-window-1" timestamp="1606310964545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-5" y="0" width="631" height="666" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1606310964545" />
+    <state x="608" y="153" key="run.anything.popup" timestamp="1605705966715">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="608" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605705966715" />
+    <state x="551" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1606642324265">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="551" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606642324265" />
+  </component>
+</project>
