@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5604700-7954-4469-9ec0-d91858d130cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/avalehtcss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lisalehtedecss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/veebileheJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MarieIlutuba.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MarieIlutuba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meie_veebileht.html" beforeDir="false" afterPath="$PROJECT_DIR$/meie_veebileht.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parnu.html" beforeDir="false" afterPath="$PROJECT_DIR$/parnu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tallinn.html" beforeDir="false" afterPath="$PROJECT_DIR$/tallinn.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tartu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tartu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,6 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sissejuhatus erialasse/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -67,6 +75,7 @@
       <workItem from="1606394971934" duration="10300000" />
       <workItem from="1606597774688" duration="484000" />
       <workItem from="1606640312545" duration="8637000" />
+      <workItem from="1606650557610" duration="5849000" />
     </task>
     <servers />
   </component>

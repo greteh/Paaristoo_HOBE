@@ -1,89 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body{
-            background-color: #ffd9bc;
-        }
-        span{
-            margin-left: 50px;
-        }
-        span b{
-            font-size: 70%;
-        }
-        span g{
-            color: #d26907;
-        }
-        span h{
-            font-family: "Tw Cen MT";
-            font-weight: bold;
-            font-family: bold;
-        }
-        a:link{
-            color: black;
-            text-decoration: none;
-        }
-        a:visited{
-            color: black;
-            text-decoration: none;
-        }
-        a:hover{
-            color: #000000;
-            text-decoration: underline;
-        }
-        h1 {
-            color: black;
-            font-family: "Tw Cen MT";
-            font-size: 50px;
-            background-color: #FFA351;
-            margin-top: 20px;
-        }
-        h2 {
-            color: black;
-            font-family: "Tw Cen MT";
-            font-size: 40px;
-            margin-bottom: 30px;
-            margin-top: 60px;
-            margin-left: 45px;
-        }
-        h3 {
-            color: black;
-            font-family: "Tw Cen MT";
-            font-size: 23px;
-            margin-bottom: 0px;
-            margin-left: 45px;
-        }
-        p {
-            margin-bottom: 30px;
-            margin-top: 20px;
-            margin-left: 45px;
-            margin-right: 270px;
-            color: black;
-            font-family: Tahoma;
-            font-size: 20px;
-        }
-        hr{
-            background-color: #ff8c00;
-            color: #ff8c00;
-        }
-    </style>
+    <script src="veebileheJS.js"></script>
     <meta charset="UTF-8">
     <title>TudengiAbi.ee/Tartu</title>
     <link rel="icon" href="iconlogo.png">
+    <link rel="stylesheet" href="lisalehtedecss.css">
 </head>
 <body>
-<img src="logo.png" style="width: 473px;height: 137px">
+<img src="logo.png" alt="veebilehe logo" style="width: 473px;height: 137px">
 <h1>Tartu tudengiabi <span><b><a href="meie_veebileht.html"><span>Avaleht</span></a><a href="tartu.html"><span><g>Tartu</g></span></a><a href="tallinn.html"><span>Tallinn</span></a><a href="parnu.html"><span>Pärnu</span></a></b></span></h1>
-<h2>Toit</h2>
+<h2 id="kõrval" onclick=naita("kõrval","all","toit")>Toit ▸</h2>
+<h2 style="display: none" id="all" onclick=naita("all","kõrval","toit")>Toit ▾</h2>
 <hr>
 
-<h3>Päevapakkumised.ee</h3>
-<a href="https://xn--pevapakkumised-5hb.ee/tartu?fbclid=IwAR3wGE-HNNlu9IpEZ_vKgo4pXKl51cOG6BL-o8xSXGO2Y8nW4dbj5ZWPBbE"><img src="http://d2glqrouin7mid.cloudfront.net/graafika/ppLogo.png" style="width: 100px;height: auto; margin-right: 100px" align="right"></a>
+<h3 id="toit1">Päevapakkumised.ee</h3>
+<a href="https://xn--pevapakkumised-5hb.ee/tartu?fbclid=IwAR3wGE-HNNlu9IpEZ_vKgo4pXKl51cOG6BL-o8xSXGO2Y8nW4dbj5ZWPBbE"><img src="http://d2glqrouin7mid.cloudfront.net/graafika/ppLogo.png" alt="Päevapakkumised.ee logo" style="width: 100px;height: auto; margin-right: 100px" align="right"></a>
 <p>Väga kasulikuks kohaks tudengitele on lehekülg nimega päevapakkumised.ee. Lehekülg väljastab igapäevaselt erinevate söögikohtade päevapakkumisi koos hinnaga. Kõht on võimalik täis saada alates 1.50 € eest.<br> ➜ <a href="https://xn--pevapakkumised-5hb.ee/tartu?fbclid=IwAR3wGE-HNNlu9IpEZ_vKgo4pXKl51cOG6BL-o8xSXGO2Y8nW4dbj5ZWPBbE">Koduleht</a></p>
 <hr>
 
 <h3>Päevapraad.ee</h3>
-<a href="https://www.paevapraad.ee/tartu/"><img src="päevapakkumised.png" style="width: 150px; height: auto; margin-right: 75px;" align="right"></a>
+<a href="https://www.paevapraad.ee/tartu/"><img src="päevapakkumised.png" style="width: 150px; height: auto; margin-right: 75px;" align="right" alt="Päevapraad.ee logo"></a>
 <p>Lehekülje eesmärgiks on kuvada kõikide kohalike kohvikute või restoranide päevapakkumised ühte patta, mis muudab hinnavõrdluse inimsele lihtsaks ning mugavaks. <br> ➜ <a href="https://www.paevapraad.ee/tartu/">Koduleht</a></p>
 <hr>
 
@@ -93,12 +30,12 @@
 <hr>
 
 <h3>Hesburger</h3>
-<a href="https://www.hesburger.ee/boonusklubi/liituge-boonusklubiga"><img src="hes.svg" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
+<a href="https://www.hesburger.ee/boonusklubi/liituge-boonusklubiga"><img src="hes.svg" style="width: 150px; height: auto; margin-right: 75px" align="right" alt="Hesburgeri logo"></a>
 <p>Hesburgeris on võimalik liituda boonusklubiga ja saada hulgaldaselt soodustusi. <br> ➜ <a href="https://www.hesburger.ee/boonusklubi/liituge-boonusklubiga">Liitu kohe!</a></p>
 <hr>
 
 <h3>McDonald's</h3>
-<a href="https://mcdonalds.ee/app/"><img src="mc2.png" style="width: 100px; height: auto; margin-right: 100px" align="right"></a>
+<a href="https://mcdonalds.ee/app/"><img src="mc2.png" alt="Mc logo" style="width: 100px; height: auto; margin-right: 100px" align="right"></a>
 <p>Samuti saab ka McDonald'sis sooduspakkumisi, kui alla tõmmata äpp. <br> ➜ <a href="https://mcdonalds.ee/app/">Tõmba äpp</a></p>
 <hr style="border-color: #ff7905; margin-top: 60px">
 
@@ -106,17 +43,17 @@
 <hr>
 
 <h3>Tartu Ülikooli Akadeemiline Spodiklubi</h3>
-<a href="https://sport.ut.ee/tudeng-tule-trenni/?fbclid=IwAR3HCuuk6JH_hMOPwYm1TE4a6BWpgT5ozUH2HM-2zqG7TfNQ84Bxk8aAICI"><img src="tüsk.png" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
+<a href="https://sport.ut.ee/tudeng-tule-trenni/?fbclid=IwAR3HCuuk6JH_hMOPwYm1TE4a6BWpgT5ozUH2HM-2zqG7TfNQ84Bxk8aAICI"><img src="tüsk.png" alt="TÜSK logo" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
 <p>Tartu Ülikooli üliõpilasele pakutakse fitnessiklubi teenuse kasutamist esmaspäevast reedeni kuni kell 13.00. Ühekordne tasu - 15 €. Selle võimaluse rakendamiseks kirjuta ivika.varton@ut.ee. <br> ➜ <a href="https://sport.ut.ee/tudeng-tule-trenni/?fbclid=IwAR3HCuuk6JH_hMOPwYm1TE4a6BWpgT5ozUH2HM-2zqG7TfNQ84Bxk8aAICI">Koduleht</a></p>
 <hr>
 
 <h3>Tartu Sport</h3>
-<a href="http://tartusport.ee/spordihooned/a_le-coq-sport-spordimaja/hinnakiri/jousaali-hinnakiri-alates-01_09_2019.html"><img src="http://tartusport.ee/tsport/tsportlogouus.png" style="width: 175px; height: auto; margin-right: 63px" align="right"></a>
+<a href="http://tartusport.ee/spordihooned/a_le-coq-sport-spordimaja/hinnakiri/jousaali-hinnakiri-alates-01_09_2019.html"><img src="http://tartusport.ee/tsport/tsportlogouus.png" alt="Tartu Sport logo" style="width: 175px; height: auto; margin-right: 63px" align="right"></a>
 <p>Sihtasutus Tartu Sport pakub omalt poolt üsna mõistlikku lahendust Jõusaalihuvilisele: Neil asub Tartus kaks väga sümpaatset jõusaalivõimalusega spordihoonet (A.le coq Sportihoone, Turu spordihoone) ning hinnad on tudengitele äärmiselt atraktiivsed. Huvi korral leiad täpsemat infot kodulehelt.<br> ➜ <a href="http://tartusport.ee/spordihooned/a_le-coq-sport-spordimaja/hinnakiri/jousaali-hinnakiri-alates-01_09_2019.html">Koduleht</a></p>
 <hr>
 
 <h3>Tähtvere Spordipark</h3>
-<a href="http://arena.ee/puhkepark/spordipark/"><img src="tähtvere.png" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
+<a href="http://arena.ee/puhkepark/spordipark/"><img src="tähtvere.png" alt="Tähtvere spordipark logo" style="width: 150px; height: auto; margin-right: 75px" align="right"></a>
 <p>Kui soovite liikuda värskes õhus, siis on seda võimalus teha Tähtvere Spordipargis. Seal on  850m asfalteeritud rullirada, 850m hakkepuidust jooksurada ja 1,3km sprindirada. Talvel kaetakse nii rullirada kui ka sprindirada kunstlumega ja aetakse rajatraktoriga sisse nii klassika kui ka vabatehnika suusarajad. Tähtvere Spordipark kuulub samuti Sihtasutuse Tartu Sport alla.<br> ➜ <a href="https://terviserajad.ee/rajad/tahtvere-spordipark/ ">Raja info</a>  <br> ➜ <a href="http://arena.ee/puhkepark/spordipark/">Koduleht</a> </p>
 
 </body>
