@@ -7,9 +7,6 @@ span{
 span b{
     font-size: 70%;
 }
-span g{
-    color: #d26907;
-}
 a:link{
     color: black;
     text-decoration: none;
@@ -72,7 +69,7 @@ div{
     height: auto;
     margin-right: 75px
 }
-.image175{ /* comment */
+.image175{
     float: right;
     width: 175px;
     height: auto;

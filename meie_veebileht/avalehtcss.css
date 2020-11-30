@@ -26,21 +26,6 @@ h1{
     background-color: #FFA351;
     margin-top: 20px;
 }
-h2{
-    color: black;
-    font-family: "Tw Cen MT";
-    font-size: 40px;
-    margin-bottom: 30px;
-    margin-top: 60px;
-    margin-left: 45px;
-}
-h3{
-    color: black;
-    font-family: "Tw Cen MT";
-    font-size: 23px;
-    margin-bottom: 0px;
-    margin-left: 45px;
-}
 p{
     margin-bottom: 30px;
     margin-top: 20px;
@@ -49,4 +34,17 @@ p{
     color: black;
     font-family: Tahoma;
     font-size: 20px;
+}
+.vblogo{
+    width: 473px;
+    height: 137px;
+    float: inherit;
+}
+.sookP{
+    width: 47%;
+    height: 47%;
+}
+.trennP{
+    width: 40%;
+    height: 40%
 }
