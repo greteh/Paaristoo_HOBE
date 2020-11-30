@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5604700-7954-4469-9ec0-d91858d130cf" name="Default Changelist" comment="" />
+    <list default="true" id="a5604700-7954-4469-9ec0-d91858d130cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tartu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tartu.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +68,7 @@
       <workItem from="1606394971934" duration="10300000" />
       <workItem from="1606597774688" duration="484000" />
       <workItem from="1606640312545" duration="8637000" />
-      <workItem from="1606650557610" duration="10984000" />
+      <workItem from="1606650557610" duration="12019000" />
     </task>
     <servers />
   </component>
@@ -105,9 +108,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="608" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605705966715" />
-    <state x="551" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1606642324265">
+    <state x="551" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1606730232044">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="551" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606642324265" />
+    <state x="551" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606730232044" />
   </component>
 </project>
