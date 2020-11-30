@@ -61,3 +61,36 @@ hr{
 div{
     display: none;
 }
+.vblogo{
+    width: 473px;
+    height: 137px;
+    float: inherit;
+}
+.image150{
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-right: 75px
+}
+.image175{ /* comment */
+    float: right;
+    width: 175px;
+    height: auto;
+    margin-right: 63px;
+}
+.image100{
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.vahejoon{
+    border-color: #ff7905;
+    margin-top: 60px;
+}
+.valik{
+    color: #d26907;
+}
+.nähtav{
+    display: none;
+}
